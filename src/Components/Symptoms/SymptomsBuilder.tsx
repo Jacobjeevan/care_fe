@@ -185,6 +185,7 @@ const SymptomEntry = (props: {
         disabled={disabled}
         onChange={props.onChange}
         errorClassName="hidden"
+        position="LEFT"
       />
       <DateFormField
         className="col-span-3 w-full lg:col-span-2 xl:col-span-1"
